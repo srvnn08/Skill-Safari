@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseaudo Properties</title>
+    <style>
+        body{
+            margin: 50px;
+        }
+        p::first-letter{
+            font-size: 80px;
+            color: blue;
+        }
+        p::first-line{
+            font-size: 50px;
+            color: palevioletred;
+        }
+        /* h2::before{ 
+            content: "Hi!! ";
+            color: burlywood;
+            content: url(../rawdata/Strarbucks/starbucks\ 1.jpg);
+        } */
+        h2::after{
+            content: " Hi!! ";
+            color: burlywood;
+            /* content: url(../rawdata/Strarbucks/starbucks\ 1.jpg); */
+        }
+        input{
+            height: 50px;
+            width: 500px;
+        }
+        input::placeholder{
+            font-size: xx-large;
+            font-weight: bolder;
+            color: red;
+            text-shadow: 5px 5px 5px black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Good Morning</h2>
+   <p> Pseaudo properties have 2 elements. <br>
+    1. Pseaudo elements <br>
+    2. Pseaudo classes 
+    </p>
+    <input placeholder="Enter the Name" type="text">
+</body>
+</html>
