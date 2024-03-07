@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body >
+    <h1 align="center" ><u>Application Form</u></h1>
+    <big><big> 
+        <form action="">
+            <label for="">
+               Full Name: <input required type="text">
+            </label> <br>
+            <label for="">
+                DOB: <input type="date">
+            </label> <br>
+            <label for="">
+                Age: <input type="number">
+            </label><br>
+            <label for="">
+                Gender: <input type="radio" name="Gender"> <small>Male</small> 
+                        <input type="radio" name="Gender"> <small>Female</small>
+                        <input type="radio" name="Gender"> <small>Others</small>
+            </label><br>
+            <label for="">
+                Email id: <input type="email">
+            </label><br>
+            <label for="">
+                Phone no: <input pattern="[6,7,8,9][0-9]{9}" type="tel">
+            </label><br>
+            <label for="">
+                State: <select >
+                    <option>--select--</option>
+                    <option>Tamil Nadu</option>
+                    <option>Kerala</option>
+                    <Option>Karnataka</Option>
+                </select>
+            </label><br>
+            <label for="">
+                Address: <textarea placeholder="Type your full address" name="" id="" cols="30" rows="5"></textarea>
+            </label><br>
+            <label for="">
+                Create password: <input type="password">
+            </label><br>
+            <label for="">
+                Select  Documents: <input type="checkbox"><small>Aadhar card</small>
+                            <input type="checkbox"><small>Pan card</small>
+                            <input type="checkbox"><small>Driving licence</small>
+                            <input type="checkbox"><small>Voter id</small>
+                            <input type="checkbox"><small>Other</small>
+
+            </label><br>
+            <label for="">
+                Documents: <small><small>Upload above selected documents in same file.</small></small>  
+                <input type="file">
+            </label><br>
+            <label for="">
+                Date and Time: <input type="datetime-local">
+            </label><br>
+            <label for="">
+                <button>Submit</button>    <button>Reset</button>
+            </label>
+        </form>
+    </big></big>
+</body>
+</html>
